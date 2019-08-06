@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+
+ <center>
+
+	 		<h1>jQuery Car Race</h1>
+	 		<button id="race">Race</button>
+	 		<button id="reset">Reset</button>
+
+	</center>
+	 		<div class="way">
+	 			<img  id="car1" src="Car1.png" width="250px" style="position: relative; top: 50px;">
+	 			
+	 		</div>
+	 		<div class="bottom">
+	 			<img id="car2" src="Car2.png" width="250px" style="position: relative;top:20px;">
+	 		</div>
+	 		<!-- <div class="last"></div> -->
+
+
+	 		 <div id="raceInfoContainer" class="clearfix">
+	            <h2>Results</h2>
+	            <div id="raceInfo1" class="raceInfo">Car 1<span id="span1"></span></div>
+	            <div id="raceInfo2" class="raceInfo">Car 2<span id="span2"></span></div>
+	        </div>
+
+	    <!-- CDN FIRST -->
+		<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+		<!-- If  CDN fails to  load ,serve up  the local version -->
+	 	<script>window.jQuery || document.write('<script src="Js/jquery-3.4.1.js"> <\/script>');</script>
+		<script src="Js/script.js" ></script>
+
+		
+	</body>
+	</html>	

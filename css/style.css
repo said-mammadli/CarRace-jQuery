@@ -1,0 +1,75 @@
+.way{
+	margin:50px auto;
+	width:100%;
+	background-color: gray;
+	height:200px;
+	border-bottom: 20px dashed yellow;
+}
+.bottom{
+	position: relative;
+	top: -50px;
+	margin:auto;
+	width:100%;
+	background-color: gray;
+	height: 200px;
+}
+
+#race{
+	width:100px;
+	height: 50px;
+	background-color: green;
+	color:white;
+	font-size: 20px;
+	border:1px solid #444;
+	margin-top: 10px;
+
+}
+#reset{
+	width:100px;
+	height: 50px;
+	background-color: yellow;
+	color:black;
+	font-size: 20px;
+	border:1px solid #444;
+	margin-top: 10px;
+	
+
+}
+#raceInfoContainer{
+	width: 960px;
+	height: 250px;
+	background-color: #1d232b;
+	margin: 10px auto;
+}
+#raceInfoContainer h2 {
+    color: white;
+    text-transform: uppercase;
+    border-bottom: solid 1px white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.raceInfo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    float: left;
+}
+
+.raceInfo span {
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+}
+
+#raceInfo1 {
+    color: #77b82f;
+    text-align: center;
+}
+
+#raceInfo2 {
+    color: #b82f3e;
+    text-align: center;
+}
